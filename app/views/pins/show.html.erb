@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @pin.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @pin.description %>
+</p>
+
+<p>
+  <strong>Daily:</strong>
+  <%= @pin.daily %>
+</p>
+
+<p>
+  <strong>Weekly:</strong>
+  <%= @pin.weekly %>
+</p>
+
+<p>
+  <strong>Monthly:</strong>
+  <%= @pin.monthly %>
+</p>
+
+<%= link_to 'Edit', edit_pin_path(@pin) %> |
+<%= link_to 'Back', pins_path %>

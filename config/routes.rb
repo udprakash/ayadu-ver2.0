@@ -1,12 +1,18 @@
 Ayadu::Application.routes.draw do
-  devise_for :users
-  get "pages/about"
-  
+ 
+
+  resources :pins
+
+ devise_for :users
+ 
+  get "about" => "pages#about"  
 
   root "pages#home"
 
   match ":controller(/:action(/:id))",
   :via => [:get, :post]
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
