@@ -8,6 +8,9 @@ gem 'rails', '4.0.2'
 
 gem 'bootstrap-sass'
 
+gem 'paperclip', '~> 3.0'
+
+
 
 gem 'devise'
 
