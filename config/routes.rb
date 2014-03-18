@@ -7,7 +7,7 @@ Ayadu::Application.routes.draw do
  
   get "about" => "pages#about"  
 
-  root "pages#home"
+  root "pins#index"
 
   match ":controller(/:action(/:id))",
   :via => [:get, :post]
