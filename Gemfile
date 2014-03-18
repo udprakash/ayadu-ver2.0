@@ -10,6 +10,8 @@ gem 'bootstrap-sass'
 
 gem 'paperclip', '~> 3.0'
 
+gem 'aws-sdk', '~> 1.20.0'
+
 
 
 gem 'devise'
