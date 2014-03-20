@@ -5,6 +5,9 @@ gem 'rails', '4.0.2'
 
 # Use sqlite3 as the database for Active Record
 
+gem 'will_paginate', '~> 3.0'
+
+gem 'will_paginate-bootstrap'
 
 gem 'bootstrap-sass'
 
